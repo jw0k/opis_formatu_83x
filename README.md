@@ -79,7 +79,7 @@ UWAGA: w przypadku programów assemblerowych Z80 (Type ID == 5 lub 6) istotne s�
     :0000
     :End
     ```
-    Każda linia kończy się znakiem nowej linii, a więc jest to następujacy ciąg bajtów: `{0x3F,0xD4,0x3F,0x30,0x30,0x30,0x30,0x3F,0xD4}`
+    Każda linia kończy się znakiem nowej linii, a także przed pierwszą linią należy dodać znak nowej linii (po ostatnim bajcie kodu). Jest to zatem następujacy ciąg bajtów: `{0x3F,0xD4,0x3F,0x30,0x30,0x30,0x30,0x3F,0xD4}` ("\nend\n0000\nend")
 
    
 Więcej informacji: http://merthsoft.com/linkguide/
