@@ -44,6 +44,7 @@ Sekcja danych składa się z 1 lub więcej wpisów. Każdy wpis opisuje jedną z
 |13      |2 bajty   |Długość (w bajtach) danych zmiennej (kopia wartości z offsetu 2)
 |15      |m bajtów  |Dane zmiennej
 
+Uwaga - dane zmiennej zaczynają się od 2 bajtów określających długość samej zmiennej - jest to wartość z offsetu 13 pomniejszona o 2.
 
 Możliwe wartości Type ID:
 
